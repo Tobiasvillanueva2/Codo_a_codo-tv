@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+.header .logo li{
+    transition: all 0.3s;
+}
+.header .logo li:hover{
+    transform: scale(1.2);
+}
+.header .logo li{
+    list-style: none;
+    padding: 25px;
+}
+.header{
+    background-color: #353130;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img {
+    width: 150px;
+}
+.header .logo img :hover{
+    width: 300px;
+}
+.header .logo img {
+    transition: all 0.3s;
+}
+.nav-links a {
+    color: white;
+}
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links li {
+   transition: all 0.3s;
+  
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding:25px;
+}  
+.boton-comprar{
+    padding: 15px;
+}
+
+ .cartel-conocer-oradores{
+    text-align: center;
+ }
+.contenedor{
+    text-align: center;
+    display: flex;
+    margin: 100px;
+    justify-content: flex-start;
+}
+.imagen-con-texto{
+   border-style: inherit;
+}
+.bsas-info{
+    display: flex;
+    
+}
+.info-bsas{
+    text-align: start;
+    background-color: #353130 ;
+    color: white;
+}
+.info-imagen-bsas{
+    margin-right: 1px;
+}
+.cartel-conviertete-orador{
+    text-align: center;
+}
+.form-pag{
+    display: flex;
+    justify-content: center;
+}
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+.textarea p {
+    text-align: center;
+}
+.boton-enviar {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    height: 150px;
+    background-color: #075F96 ;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30;
+    margin-right: 30;
+    
+}
+.foot-links a {
+  text-decoration: none;
+  color: white;
+}
+.foot-links li {
+    display: inline-block; 
+    padding: 50px;
+}
+.foot-links li {
+    transition: all 0.3s;
+}
+.foot-links li:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styletickets.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Comprar Tickets </title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <img  src="Imags/codoacodo.png" alt="logo">
+          <li><a href="#">Conf Bs As</a></li>
+        </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="#">La Conferencia</a></li>
+            <li><a href="#">Los Oradores</a></li>
+            <li><a href="#">El lugar y la Fecha</a></li>
+            <li><a href="#">Conviertete en Orador</a></li>
+          </ul>
+        </nav>
+        <a  href="tickets.html"  class="btn btn-success" role="button" class="boton-comprar"  style="height: 45px; padding: 10px; margin: 10px;" > Comprar tickets</a>    
+      </header>
+    <section class="carteles_descuento">
+         <div class="cartel_desc" style="border: 2px solid blue; border-radius: 10px;" >
+            <div class="persona_desc" style="background-color: blue;">
+            <h1>Estudiante</h1>
+            </div>
+            <h3>Tienen descuento</h3>
+            <p style="font-size: xx-large;" >80%</p>
+            <br>
+            <p>Presentar Documentacion</p>
+         </div>
+          <div class= "cartel_desc" style="border: 2px solid skyblue; border-radius: 10px;">
+            <div class="persona_desc" style="background-color: skyblue; ">
+            <h1>Trainee</h1>
+            </div>
+             <h3>Tienen descuento</h3>
+            <p style="font-size: xx-large;">50%</p>
+            <br>
+            <p>Presentar Documentacion</p>
+          </div>
+          <div class="cartel_desc" style="border: 2px solid yellow; border-radius: 10px;">
+            <div class="persona_desc" style="background-color: yellow; ">
+            <h1>Junior</h1>
+            </div>
+           <h3>Tienen descuento</h3>
+            <p style="font-size: xx-large;">15%</p>
+            <br>
+            <p>Presentar Documentacion</p>
+          </div>
+    </section>
+    <div class="cartel_venta">
+    <h1>VENTA VALOR DE TICKET 200$</h1>
+    <br>
+    </div>
+<div class="form-container">
+ <div class="form">  
+    <div style="width: 200px;"  class="input-group">
+      <span class="input-group-text">Nombre y Apellido</span>
+      <input type="text" aria-label="First name" class="form-control" id="nombre"   style="width: 200px;">
+      <input type="text" aria-label="Last name" class="form-control" id="apellido"  style="width: 200px;">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Gmail</label>
+      <input style="width: 200px;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">N</span>
+      <div class="form-floating">
+        <input style="width: 200px; height: 10px;"   type="number" class="form-control" id="cantidad" placeholder="cantidad">
+        <label for="cantidad">Cantidad</label>
+      </div>
+    </div>
+    <select style="width: 200px;" class="form-select" aria-label="Default select example" id="operacion">
+      <option selected>Elegir categoria </option>
+      <option value="0">Sin categoria</option>
+      <option value="1">Estudiante</option>
+      <option value="2">Trainee</option>
+      <option value="3">Junior</option>
+    </select>
+    <input class="form-control" type="text" value="Total a pagar  "   id="total" aria-label="Disabled input example" disabled readonly>
+    <input class="form-control" type="text" value="$0"   id="total1" aria-label="Disabled input example" disabled readonly>
+    <a href="exito.html" class="btn btn-success" role="button"  style=" width: 200px;"  onclick="calculadesc();"> Resumen</a>
+    <a  href="index.html"  class="btn btn-warning" role="button" class="boton-comprar"  style="width: 200px;" > Volver</a>   
+    <input type="button"  value="borrar" class="btn btn-danger" style=" width: 200px;">
+  </div>
+</div>
+
+    <script src="js/tickets.js"></script>
+    
+</body>
+</html>
